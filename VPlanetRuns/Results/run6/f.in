@@ -1,0 +1,26 @@
+# Planet f parameters
+sName                     f              # Body's name
+saModules                 eqtide atmesc         # Modules to apply, exact spelling required
+
+# Physical Properties (from Grimm et al. [2018]) - also gives core masses
+dMass                     -0.934           # Mass, negative -> Earth masses
+dRadius                   -1.046           # Radius, negative -> Earth radii
+
+# Orbital Properties
+dSemi                     -0.03853361     # Semi-major axis, negative -> AU
+dEcc                       0.0107         # Eccentricity
+
+# AtmEsc Properties
+dXFrac                    1.0
+dSurfWaterMass            -10.0
+dEnvelopeMass             0.0
+sWaterLossModel           lbexact
+sAtmXAbsEffH2OModel       bolmont16
+bInstantO2Sink            0
+
+# EQTIDE Parameters - start with Earth values
+dTidalQ     1200     # Tidal Q
+dK2         0.299   # Love number of degree 2 (Yoder 1995)
+saTidePerts	star
+
+saOutputOrder Time -SurfWaterMass -OxygenMass -EnvelopeMass -ScaleHeight -SemiMajorAxis -DeccDtEqtide -EccTimeEqtide EnvTidalQ EnvK2

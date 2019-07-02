@@ -1,0 +1,19 @@
+sName                     e
+saModules                 eqtide atmesc
+dXFrac                    1.0
+dSurfWaterMass            -10.0
+#dSemi                     -0.02928285
+dOrbPeriod		  -5.3
+dEcc                      0.0051
+dEnvelopeMass             0.0
+dMass                     -0.772
+dRadius                   -0.910
+sWaterLossModel           lbexact
+sAtmXAbsEffH2OModel       bolmont16
+bInstantO2Sink            0
+# EQTIDE Parameters - start with Earth values
+dTidalQ     1200     # Tidal Q
+dK2         0.299   # Love number of degree 2 (Yoder 1995)
+saTidePerts	star
+
+saOutputOrder Time -SurfWaterMass -OxygenMass -EnvelopeMass -ScaleHeight -SemiMajorAxis -DeccDtEqtide -EccTimeEqtide EnvTidalQ EnvK2

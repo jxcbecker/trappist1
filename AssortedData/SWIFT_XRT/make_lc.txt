@@ -1,0 +1,10 @@
+To make corrected light curve from extracted source and background LCs, use lcmath:
+
+lcmath
+Name of input FITS file[trappist_full_xrt_lc.fits] 
+Name of background FITS file[bkg_full_xrt_lc.fits] 
+Name of output FITS file[output.lc] 
+Scaling factor for input[1.] 
+Scaling factor for background[0.25] 
+Add instead of subract?[no] 
+

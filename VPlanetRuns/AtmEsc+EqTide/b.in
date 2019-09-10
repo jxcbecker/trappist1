@@ -24,4 +24,4 @@ dTidalQ     120     # Tidal Q
 dK2         0.299   # Love number of degree 2 (Yoder 1995)
 saTidePerts	star
 
-saOutputOrder Time -SurfWaterMass -OxygenMass -EnvelopeMass -ScaleHeight -SemiMajorAxis -DeccDtEqtide -EccTimeEqtide EnvTidalQ EnvK2
+saOutputOrder Time -SurfWaterMass -OxygenMass -EnvelopeMass -SemiMajorAxis -DeccDtEqtide -EccTimeEqtide EnvTidalQ EnvK2

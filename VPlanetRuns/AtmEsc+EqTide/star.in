@@ -12,6 +12,6 @@ sTideModel    p2        # Tidal model, p2=CPL, t8=CTL
 saTidePerts    b c d e f g h         # Body name(s) of tidal perturbers
 
 sStellarModel   baraffe
-dSatXUVFrac     0.0001
+dSatXUVFrac     0.0003
 dSatXUVTime     -1
 saOutputOrder 	Time -Luminosity -LXUVTot Temperature HZLimRecVenus HZLimRunaway HZLimMaxGreenhouse HZLimEarlyMars

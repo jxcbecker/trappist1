@@ -1,7 +1,7 @@
 sSystemName               trappist1
 iVerbose                  5
 bOverwrite                1
-saBodyFiles               star.in b.in c.in d.in e.in f.in g.in h.in
+saBodyFiles               star.in 
 sUnitMass                 solar
 sUnitLength               AU
 sUnitTime                 YEARS

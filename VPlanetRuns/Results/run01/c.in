@@ -1,14 +1,14 @@
-# Planet f parameters
-sName                     f              # Body's name
+# Planet c parameters
+sName                     c              # Body's name
 saModules                 eqtide atmesc         # Modules to apply, exact spelling required
 
-# Physical Properties (from Grimm et al. [2018]) - also gives core masses
-dMass                     -0.934           # Mass, negative -> Earth masses
-dRadius                   -1.046           # Radius, negative -> Earth radii
+# Physical Properties (from Grimm et al. [2018])
+dMass                     -1.156           # Mass, negative -> Earth masses
+dRadius                   -1.095           # Radius, negative -> Earth radii
 
 # Orbital Properties
-dSemi                     -0.03853361     # Semi-major axis, negative -> AU
-dEcc                       0.0107         # Eccentricity
+dSemi                     -0.01581512     # Semi-major axis, negative -> AU
+dEcc                       0.0065         # Eccentricity
 
 # AtmEsc Properties
 dXFrac                    1.0

@@ -1,14 +1,14 @@
-# Planet h parameters
-sName                     h              # Body's name
-saModules                 eqtide atmesc         # Modules to apply, exact spelling required
+# Planet d parameters
+sName                     d              # Body's name
+saModules                 eqtide atmesc       # Modules to apply, exact spelling required
 
 # Physical Properties (from Grimm et al. [2018])
-dMass                     -0.331           # Mass, negative -> Earth masses
-dRadius                   -0.773           # Radius, negative -> Earth radii
+dMass                     -0.297           # Mass, negative -> Earth masses
+dRadius                   -0.784           # Radius, negative -> Earth radii               1
 
 # Orbital Properties
-dSemi                     -0.06193488     # Semi-major axis, negative -> AU
-dEcc                       0.00567         # Eccentricity
+dSemi                     -0.02228038     # Semi-major axis, negative -> AU
+dEcc                       0.00837         # Eccentricity
 
 # AtmEsc Properties
 dXFrac                    1.0

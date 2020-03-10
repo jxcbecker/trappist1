@@ -1,7 +1,7 @@
 -------- Log file trappist1.log -------
 
 Executable: vplanet
-Version: v1.0.0-197-gd0bcbdc874f580ab648d29b6232f72bf53aad437
+Version: v1.0.0-335-g2c7db1a86c7a9a229ec97f62159eb9654183400f
 System Name: trappist1
 Primary Input File: vpl.in
 Body File #1: star.in
@@ -70,7 +70,12 @@ Color: 000000
 (Imk2Man) Imaginary Love Number k2 Mantle []: 0.00000000 
 (TidalQMantle) Mantle's Tidal Q []: 100.00000000 
 (HEcc) Poincare's h (=e*sin(varpi) []: 0.00000000 
-(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: -1.00000000 
+(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 2.05609394e+10 
+(HZLimRecVenus) Recent Venus Habitable Zone Limit [m]: 1.84947612e+10 
+(HZLimRunaway) Runaway Greenhouse Habitable Zone Limit [m]: 2.43463047e+10 
+(HZLimMoistGreenhouse) Moist Greenhouse Habitable Zone Limit [m]: 2.44716319e+10 
+(HZLimMaxGreenhouse) Maximum Greenhouse Habitable Zone Limit [m]: 4.69007320e+10 
+(HZLimEarlyMars) Early Mars Habitable Zone Limit [m]: 5.11500320e+10 
 (Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: -1.00000000 
 (KEcc) Poincare's k (=e*cos(varpi) []: 0.00000000 
 (Eccentricity) Orbital Eccentricity []: -1.00000000 
@@ -116,11 +121,6 @@ Tidal Perturbers: b, c, d, e, f, g, h
 (LXUVFrac) X-ray/XUV Luminosity Fraction []: 0.00037000 
 (RossbyNumber) Rossby Number []: 0.04410806 
 (DRotPerDtStellar) Time Rate of Change of Rotation Period in STELLAR []: -1.69488059e-09 
-(HZLimRecVenus) Recent Venus Habitable Zone Limit [m]: 1.84947612e+10 
-(HZLimRunaway) Runaway Greenhouse Habitable Zone Limit [m]: 2.43463047e+10 
-(HZLimMoistGreenhouse) Moist Greenhouse Habitable Zone Limit [m]: 2.44716319e+10 
-(HZLimMaxGreenhouse) Maximum Greenhouse Habitable Zone Limit [m]: 4.69007320e+10 
-(HZLimEarlyMars) Early Mars Habitable Zone Limit [m]: 5.11500320e+10 
 Output Order: Time[year] Luminosity[LSUN] LXUVTot[LSUN] Temperature[K] HZLimRecVenus[AU] HZLimRunaway[AU] HZLimMaxGreenhouse[AU] HZLimEarlyMars[AU]
 Grid Output Order:
 
@@ -151,6 +151,11 @@ Color: 000000
 (TidalQMantle) Mantle's Tidal Q []: 100.00000000 
 (HEcc) Poincare's h (=e*sin(varpi) []: 0.00000000 
 (HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 2.05613346e+10 
+(HZLimRecVenus) Recent Venus Habitable Zone Limit [m]: 1.84947612e+10 
+(HZLimRunaway) Runaway Greenhouse Habitable Zone Limit [m]: 2.43463047e+10 
+(HZLimMoistGreenhouse) Moist Greenhouse Habitable Zone Limit [m]: 2.44716319e+10 
+(HZLimMaxGreenhouse) Maximum Greenhouse Habitable Zone Limit [m]: 4.69007320e+10 
+(HZLimEarlyMars) Early Mars Habitable Zone Limit [m]: 5.11500320e+10 
 (Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 2.35156383e+05 
 (KEcc) Poincare's k (=e*cos(varpi) []: 0.00620000 
 (Eccentricity) Orbital Eccentricity []: 0.00620000 
@@ -254,6 +259,11 @@ Color: 000000
 (TidalQMantle) Mantle's Tidal Q []: 100.00000000 
 (HEcc) Poincare's h (=e*sin(varpi) []: 0.00000000 
 (HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 2.05613738e+10 
+(HZLimRecVenus) Recent Venus Habitable Zone Limit [m]: 1.84947612e+10 
+(HZLimRunaway) Runaway Greenhouse Habitable Zone Limit [m]: 2.43463047e+10 
+(HZLimMoistGreenhouse) Moist Greenhouse Habitable Zone Limit [m]: 2.44716319e+10 
+(HZLimMaxGreenhouse) Maximum Greenhouse Habitable Zone Limit [m]: 4.69007320e+10 
+(HZLimEarlyMars) Early Mars Habitable Zone Limit [m]: 5.11500320e+10 
 (Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 1.25373966e+05 
 (KEcc) Poincare's k (=e*cos(varpi) []: 0.00650000 
 (Eccentricity) Orbital Eccentricity []: 0.00650000 
@@ -357,6 +367,11 @@ Color: 000000
 (TidalQMantle) Mantle's Tidal Q []: 100.00000000 
 (HEcc) Poincare's h (=e*sin(varpi) []: 0.00000000 
 (HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 2.05616597e+10 
+(HZLimRecVenus) Recent Venus Habitable Zone Limit [m]: 1.84947612e+10 
+(HZLimRunaway) Runaway Greenhouse Habitable Zone Limit [m]: 2.43463047e+10 
+(HZLimMoistGreenhouse) Moist Greenhouse Habitable Zone Limit [m]: 2.44716319e+10 
+(HZLimMaxGreenhouse) Maximum Greenhouse Habitable Zone Limit [m]: 4.69007320e+10 
+(HZLimEarlyMars) Early Mars Habitable Zone Limit [m]: 5.11500320e+10 
 (Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 6.31703375e+04 
 (KEcc) Poincare's k (=e*cos(varpi) []: 0.00837000 
 (Eccentricity) Orbital Eccentricity []: 0.00837000 
@@ -460,6 +475,11 @@ Color: 000000
 (TidalQMantle) Mantle's Tidal Q []: 100.00000000 
 (HEcc) Poincare's h (=e*sin(varpi) []: 0.00000000 
 (HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 2.05612068e+10 
+(HZLimRecVenus) Recent Venus Habitable Zone Limit [m]: 1.84947612e+10 
+(HZLimRunaway) Runaway Greenhouse Habitable Zone Limit [m]: 2.43463047e+10 
+(HZLimMoistGreenhouse) Moist Greenhouse Habitable Zone Limit [m]: 2.44716319e+10 
+(HZLimMaxGreenhouse) Maximum Greenhouse Habitable Zone Limit [m]: 4.69007320e+10 
+(HZLimEarlyMars) Early Mars Habitable Zone Limit [m]: 5.11500320e+10 
 (Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 4.44472255e+04 
 (KEcc) Poincare's k (=e*cos(varpi) []: 0.00510000 
 (Eccentricity) Orbital Eccentricity []: 0.00510000 
@@ -563,6 +583,11 @@ Color: 000000
 (TidalQMantle) Mantle's Tidal Q []: 100.00000000 
 (HEcc) Poincare's h (=e*sin(varpi) []: 0.00000000 
 (HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 2.05621165e+10 
+(HZLimRecVenus) Recent Venus Habitable Zone Limit [m]: 1.84947612e+10 
+(HZLimRunaway) Runaway Greenhouse Habitable Zone Limit [m]: 2.43463047e+10 
+(HZLimMoistGreenhouse) Moist Greenhouse Habitable Zone Limit [m]: 2.44716319e+10 
+(HZLimMaxGreenhouse) Maximum Greenhouse Habitable Zone Limit [m]: 4.69007320e+10 
+(HZLimEarlyMars) Early Mars Habitable Zone Limit [m]: 5.11500320e+10 
 (Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 2.11197435e+04 
 (KEcc) Poincare's k (=e*cos(varpi) []: 0.01070000 
 (Eccentricity) Orbital Eccentricity []: 0.01070000 
@@ -666,6 +691,11 @@ Color: 000000
 (TidalQMantle) Mantle's Tidal Q []: 100.00000000 
 (HEcc) Poincare's h (=e*sin(varpi) []: 0.00000000 
 (HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 2.05612699e+10 
+(HZLimRecVenus) Recent Venus Habitable Zone Limit [m]: 1.84947612e+10 
+(HZLimRunaway) Runaway Greenhouse Habitable Zone Limit [m]: 2.43463047e+10 
+(HZLimMoistGreenhouse) Moist Greenhouse Habitable Zone Limit [m]: 2.44716319e+10 
+(HZLimMaxGreenhouse) Maximum Greenhouse Habitable Zone Limit [m]: 4.69007320e+10 
+(HZLimEarlyMars) Early Mars Habitable Zone Limit [m]: 5.11500320e+10 
 (Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 1.42702642e+04 
 (KEcc) Poincare's k (=e*cos(varpi) []: 0.00567000 
 (Eccentricity) Orbital Eccentricity []: 0.00567000 
@@ -769,6 +799,11 @@ Color: 000000
 (TidalQMantle) Mantle's Tidal Q []: 100.00000000 
 (HEcc) Poincare's h (=e*sin(varpi) []: 0.00000000 
 (HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 2.05612699e+10 
+(HZLimRecVenus) Recent Venus Habitable Zone Limit [m]: 1.84947612e+10 
+(HZLimRunaway) Runaway Greenhouse Habitable Zone Limit [m]: 2.43463047e+10 
+(HZLimMoistGreenhouse) Moist Greenhouse Habitable Zone Limit [m]: 2.44716319e+10 
+(HZLimMaxGreenhouse) Maximum Greenhouse Habitable Zone Limit [m]: 4.69007320e+10 
+(HZLimEarlyMars) Early Mars Habitable Zone Limit [m]: 5.11500320e+10 
 (Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 8174.84546140 
 (KEcc) Poincare's k (=e*cos(varpi) []: 0.00567000 
 (Eccentricity) Orbital Eccentricity []: 0.00567000 
@@ -850,11 +885,11 @@ Grid Output Order:
 ---- FINAL SYSTEM PROPERTIES ----
 (Age) System Age [sec]: 3.09832517e+17 
 (Time) Simulation Time [sec]: 3.09674729e+17 
-(TotAngMom) Total Angular Momentum [kg*m^2/sec]: 1.47925721e+41 
-(TotEnergy) Total System Energy [kg*m^2/sec^2]: -3.19004717e+39 
+(TotAngMom) Total Angular Momentum [kg*m^2/sec]: 1.47833705e+41 
+(TotEnergy) Total System Energy [kg*m^2/sec^2]: -3.19091331e+39 
 (PotEnergy) Body's non-orbital Potential Energy [kg*m^2/sec^2]: -1.61534014e+40 
-(KinEnergy) Body's non-orbital Kinetic Energy [kg*m^2/sec^2]: 1.46033613e+32 
-(DeltaTime) Average Timestep Over Last Output Interval [sec]: 3.09145768e+08 
+(KinEnergy) Body's non-orbital Kinetic Energy [kg*m^2/sec^2]: 1.46020489e+32 
+(DeltaTime) Average Timestep Over Last Output Interval [sec]: 2.99854622e+08 
 (Density) Average Density [kg/m^3]: 1.58389822e+06 
 (LongP) Body's Longitude of pericenter [rad]: 0.00000000 
 (LXUVTot) Total XUV Luminosity [LSUN]: 1.26373518e-07 
@@ -871,12 +906,12 @@ Color: 000000
 (Zobl) Body's cos(obl) []: 1.00000000 
 (Radius) Radius [m]: 7.76401200e+07 
 (RadGyra) Radius of Gyration []: 0.46503000 
-(RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 2.59571621e+38 
-(RotKinEnergy) Body's Rotational Energy [kg*m^2/sec^2]: 1.46033613e+32 
-(RotVel) Rotational Velocity [m/sec]: 87.35983684 
+(RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 2.59559958e+38 
+(RotKinEnergy) Body's Rotational Energy [kg*m^2/sec^2]: 1.46020489e+32 
+(RotVel) Rotational Velocity [m/sec]: 87.35591134 
 (BodyType) Type of Body (0 == planet) []: 0.00000000 
-(RotRate) Rotational Frequency [/sec]: 1.12518936e-06 
-(RotPer) Rotational Period [sec]: 5.58411369e+06 
+(RotRate) Rotational Frequency [/sec]: 1.12513880e-06 
+(RotPer) Rotational Period [sec]: 5.58436463e+06 
 (SurfEnFluxTotal) Total Surface Energy Flux [kg*m^2/sec^2/(m^2*sec)]: 0.00013585 
 (TidalQ) Tidal Q []: 1.00000000e+06 
 (ImK2) Im(k_2) []: -5.00000000e-07 
@@ -885,7 +920,12 @@ Color: 000000
 (Imk2Man) Imaginary Love Number k2 Mantle []: 0.00000000 
 (TidalQMantle) Mantle's Tidal Q []: 100.00000000 
 (HEcc) Poincare's h (=e*sin(varpi) []: 0.00000000 
-(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: -1.00000000 
+(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 3.09204399e+09 
+(HZLimRecVenus) Recent Venus Habitable Zone Limit [m]: 2.79804762e+09 
+(HZLimRunaway) Runaway Greenhouse Habitable Zone Limit [m]: 3.67598009e+09 
+(HZLimMoistGreenhouse) Moist Greenhouse Habitable Zone Limit [m]: 3.70228709e+09 
+(HZLimMaxGreenhouse) Maximum Greenhouse Habitable Zone Limit [m]: 7.19777055e+09 
+(HZLimEarlyMars) Early Mars Habitable Zone Limit [m]: 7.85017403e+09 
 (Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: -1.00000000 
 (KEcc) Poincare's k (=e*cos(varpi) []: 0.00000000 
 (Eccentricity) Orbital Eccentricity []: -1.00000000 
@@ -895,33 +935,33 @@ Color: 000000
 (SemiMajorAxis) Semi-major Axis [m]: -1.00000000 
 (CriticalSemiMajorAxis) Holman & Wiegert (1999) P-type Critical Semi-major Axis [m]: -1.00000000 
 (OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 0.00000000 
-(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -6.07445581e+34 
+(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -6.07445593e+34 
 (OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -1.00000000 
-(LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 1.29634160e+40 
-(LostAngMom) Lost Angular Momentum due to Magnetic Braking [kg*m^2/sec]: 1.40211401e+41 
+(LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 1.29625498e+40 
+(LostAngMom) Lost Angular Momentum due to Magnetic Braking [kg*m^2/sec]: 1.40119396e+41 
 ----- EQTIDE PARAMETERS (star)------
 (LockTime) Time when body tidally locked. [sec]: -1.00000000 
 (BodyDsemiDtEqtide) Body's Contribution to dSemi/dt in EQTIDE []: -1.00000000 
 (BodyDeccDt) Body's Contribution to dEcc/dt in EQTIDE []: -1.00000000 
 (DOblDtEqtide) Time Rate of Change of Obliquity in EQTIDE [rad/sec]: 0.00000000 
-(DRotPerDtEqtide) Time Rate of Change of Rotation Period in EQTIDE []: -5.07319779e-15 
-(DRotRateDtEqtide) Time Rate of Change of Rotational Frequency in EQTIDE [/sec^2]: 1.02224068e-27 
-(EqRotRateDiscrete) CPL2 Discrete Equilibrium Spin Rate [/sec]: 4.78757958e-05 
-(EqRotPerDiscrete) CPL2 Discrete Equilibrium Spin Period [sec]: 1.31239287e+05 
-(EqRotRateCont) CPL2 Continuous Equilibrium Spin Rate [/sec]: 4.78757958e-05 
-(EqRotPerCont) CPL2 Continuous Equilibrium Rotation Period [sec]: 1.31239287e+05 
-(EqRotPer) Equilibrium Rotation Period [sec]: 1.31239287e+05 
-(EqRotRate) Equilibrium Rotation Rate [/sec]: 4.78757958e-05 
+(DRotPerDtEqtide) Time Rate of Change of Rotation Period in EQTIDE []: -5.07365503e-15 
+(DRotRateDtEqtide) Time Rate of Change of Rotational Frequency in EQTIDE [/sec^2]: 1.02224094e-27 
+(EqRotRateDiscrete) CPL2 Discrete Equilibrium Spin Rate [/sec]: 4.78757993e-05 
+(EqRotPerDiscrete) CPL2 Discrete Equilibrium Spin Period [sec]: 1.31239277e+05 
+(EqRotRateCont) CPL2 Continuous Equilibrium Spin Rate [/sec]: 4.78757993e-05 
+(EqRotPerCont) CPL2 Continuous Equilibrium Rotation Period [sec]: 1.31239277e+05 
+(EqRotPer) Equilibrium Rotation Period [sec]: 1.31239277e+05 
+(EqRotRate) Equilibrium Rotation Rate [/sec]: 4.78757993e-05 
 (GammaRot) Gamma_Rotation [cgs]: -1.00000000 
 (GammaOrb) Gamma_Orbital [cgs]: -1.00000000 
 (OceanK2) K2_Ocean []: 0.01000000 
 (EnvTidalQ) Envelope Tidal Q []: -1.00000000 
 (OceanTidalQ) Ocean Tidal Q []: -1.00000000 
 (TideLock) Tidally Locked? []: 0.00000000 
-(RotTimeEqtide) Timescale for Rotational Evolution in EQTIDE [sec]: 1.32019271e+21 
+(RotTimeEqtide) Timescale for Rotational Evolution in EQTIDE [sec]: 1.32013300e+21 
 (EnvK2) K2_Env []: 0.01000000 
 (OblTimeEqtide) Timescale for Obliquity Evolution in EQTIDE []: -1.00000000 
-(PowerEqtide) Internal Power due to Tides in EQTIDE [kg*m^2/sec^3]: 1.02905494e+13 
+(PowerEqtide) Internal Power due to Tides in EQTIDE [kg*m^2/sec^3]: 1.02905648e+13 
 (SurfEnFluxEqtide) Surface Energy Flux due to Tides in EQTIDE [kg*m^2/sec^2/(m^2*sec)]: 0.00013585 
 Tidal Perturbers: b, c, d, e, f, g, h
 ----- STELLAR PARAMETERS (star)------
@@ -929,13 +969,8 @@ Tidal Perturbers: b, c, d, e, f, g, h
 (LXUVStellar) Base X-ray/XUV Luminosity [kg*m^2/sec^3]: 4.86032549e+19 
 (Temperature) Effective Temperature [K]: 2614.23906439 
 (LXUVFrac) X-ray/XUV Luminosity Fraction []: 0.00024370 
-(RossbyNumber) Rossby Number []: 0.78460963 
-(DRotPerDtStellar) Time Rate of Change of Rotation Period in STELLAR []: 1.49038991e-11 
-(HZLimRecVenus) Recent Venus Habitable Zone Limit [m]: 2.79804762e+09 
-(HZLimRunaway) Runaway Greenhouse Habitable Zone Limit [m]: 3.67598009e+09 
-(HZLimMoistGreenhouse) Moist Greenhouse Habitable Zone Limit [m]: 3.70228709e+09 
-(HZLimMaxGreenhouse) Maximum Greenhouse Habitable Zone Limit [m]: 7.19777055e+09 
-(HZLimEarlyMars) Early Mars Habitable Zone Limit [m]: 7.85017403e+09 
+(RossbyNumber) Rossby Number []: 0.78464489 
+(DRotPerDtStellar) Time Rate of Change of Rotation Period in STELLAR []: 1.49032294e-11 
 Output Order: Time[year] Luminosity[LSUN] LXUVTot[LSUN] Temperature[K] HZLimRecVenus[AU] HZLimRunaway[AU] HZLimMaxGreenhouse[AU] HZLimEarlyMars[AU]
 Grid Output Order:
 
@@ -951,12 +986,12 @@ Color: 000000
 (Zobl) Body's cos(obl) []: 1.00000000 
 (Radius) Radius [m]: 7.14985010e+06 
 (RadGyra) Radius of Gyration []: 0.50000000 
-(RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 3.71624353e+33 
-(RotKinEnergy) Body's Rotational Energy [kg*m^2/sec^2]: 8.89590581e+28 
-(RotVel) Rotational Velocity [m/sec]: 342.30476330 
+(RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 3.71624380e+33 
+(RotKinEnergy) Body's Rotational Energy [kg*m^2/sec^2]: 8.89590712e+28 
+(RotVel) Rotational Velocity [m/sec]: 342.30478852 
 (BodyType) Type of Body (0 == planet) []: 0.00000000 
-(RotRate) Rotational Frequency [/sec]: 4.78757958e-05 
-(RotPer) Rotational Period [sec]: 1.31239287e+05 
+(RotRate) Rotational Frequency [/sec]: 4.78757993e-05 
+(RotPer) Rotational Period [sec]: 1.31239277e+05 
 (SurfEnFluxTotal) Total Surface Energy Flux [kg*m^2/sec^2/(m^2*sec)]: 0.00000000 
 (TidalQ) Tidal Q []: 100.00000000 
 (ImK2) Im(k_2) []: -0.00010000 
@@ -966,26 +1001,31 @@ Color: 000000
 (TidalQMantle) Mantle's Tidal Q []: 100.00000000 
 (HEcc) Poincare's h (=e*sin(varpi) []: 0.00000000 
 (HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 3.09204399e+09 
-(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 5319.56804241 
+(HZLimRecVenus) Recent Venus Habitable Zone Limit [m]: 2.79804762e+09 
+(HZLimRunaway) Runaway Greenhouse Habitable Zone Limit [m]: 3.67598009e+09 
+(HZLimMoistGreenhouse) Moist Greenhouse Habitable Zone Limit [m]: 3.70228709e+09 
+(HZLimMaxGreenhouse) Maximum Greenhouse Habitable Zone Limit [m]: 7.19777055e+09 
+(HZLimEarlyMars) Early Mars Habitable Zone Limit [m]: 7.85017403e+09 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 5319.56856507 
 (KEcc) Poincare's k (=e*cos(varpi) []: 0.00000000 
 (Eccentricity) Orbital Eccentricity []: 0.00000000 
-(OrbEnergy) Body's Total Orbital Energy [kg*m^2/sec^2]: -2.07665540e+34 
-(MeanMotion) Orbital Mean Motion [/sec]: 4.78757958e-05 
-(OrbPeriod) Orbital Period [sec]: 1.31239287e+05 
-(SemiMajorAxis) Semi-major Axis [m]: 1.72727515e+09 
+(OrbEnergy) Body's Total Orbital Energy [kg*m^2/sec^2]: -2.07665551e+34 
+(MeanMotion) Orbital Mean Motion [/sec]: 4.78757993e-05 
+(OrbPeriod) Orbital Period [sec]: 1.31239277e+05 
+(SemiMajorAxis) Semi-major Axis [m]: 1.72727506e+09 
 (CriticalSemiMajorAxis) Holman & Wiegert (1999) P-type Critical Semi-major Axis [m]: -1.00000000 
-(OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 8.67517864e+38 
-(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -6.07445581e+34 
-(OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -4.15331081e+34 
-(LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 7.97696360e+29 
+(OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 8.67517842e+38 
+(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -6.07445593e+34 
+(OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -4.15331101e+34 
+(LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 7.97696316e+29 
 ----- EQTIDE PARAMETERS (b)------
 (TidalRadius) Tidal Radius [m]: 7.14985010e+06 
-(DsemiDtEqtide) Total da/dt in EQTIDE [m/sec]: -7.81176521e-13 
+(DsemiDtEqtide) Total da/dt in EQTIDE [m/sec]: -7.81176732e-13 
 (DeccDtEqtide) Total de/dt in EQTIDE [/sec]: -0.00000000 
-(DMeanMotionDtEqtide) Total dMeanMotion/dt in EQTIDE [/sec^2]: 3.24784222e-26 
-(DOrbPerDtEqtide) Total dOrbPer/dt in EQTIDE []: -8.90313133e-17 
+(DMeanMotionDtEqtide) Total dMeanMotion/dt in EQTIDE [/sec^2]: 3.24784350e-26 
+(DOrbPerDtEqtide) Total dOrbPer/dt in EQTIDE []: -8.90313352e-17 
 (EccTimeEqtide) Timescale for Eccentricity Evolution (e/[de/dt]) in EQTIDE [sec]: 0.00000000 
-(SemiTimeEqtide) Timescale for Semi-major Axis Evolution (a/[da/dt]) in EQTIDE [sec]: 2.21112015e+21 
+(SemiTimeEqtide) Timescale for Semi-major Axis Evolution (a/[da/dt]) in EQTIDE [sec]: 2.21111944e+21 
 (DHEccDtEqtide) Time Rate of Change of Poincare's h in EQTIDE [/sec]: -0.00000000 
 (DKEccDtEqtide) Time Rate of Change of Poincare's k in EQTIDE [/sec]: -0.00000000 
 (DXoblDtEqtide) Time Rate of Change of Laskar's X in EQTIDE [/sec]: 0.00000000 
@@ -995,32 +1035,32 @@ Color: 000000
 (BodyDsemiDtEqtide) Body's Contribution to dSemi/dt in EQTIDE []: -1.00000000 
 (BodyDeccDt) Body's Contribution to dEcc/dt in EQTIDE []: -1.00000000 
 (DOblDtEqtide) Time Rate of Change of Obliquity in EQTIDE [rad/sec]: 0.00000000 
-(DRotPerDtEqtide) Time Rate of Change of Rotation Period in EQTIDE []: -1.52486816e-299 
+(DRotPerDtEqtide) Time Rate of Change of Rotation Period in EQTIDE []: -1.52486794e-299 
 (DRotRateDtEqtide) Time Rate of Change of Rotational Frequency in EQTIDE [/sec^2]: 5.56268465e-309 
-(EqRotRateDiscrete) CPL2 Discrete Equilibrium Spin Rate [/sec]: 4.78757958e-05 
-(EqRotPerDiscrete) CPL2 Discrete Equilibrium Spin Period [sec]: 1.31239287e+05 
-(EqRotRateCont) CPL2 Continuous Equilibrium Spin Rate [/sec]: 4.78757958e-05 
-(EqRotPerCont) CPL2 Continuous Equilibrium Rotation Period [sec]: 1.31239287e+05 
-(EqRotPer) Equilibrium Rotation Period [sec]: 1.31239287e+05 
-(EqRotRate) Equilibrium Rotation Rate [/sec]: 4.78757958e-05 
+(EqRotRateDiscrete) CPL2 Discrete Equilibrium Spin Rate [/sec]: 4.78757993e-05 
+(EqRotPerDiscrete) CPL2 Discrete Equilibrium Spin Period [sec]: 1.31239277e+05 
+(EqRotRateCont) CPL2 Continuous Equilibrium Spin Rate [/sec]: 4.78757993e-05 
+(EqRotPerCont) CPL2 Continuous Equilibrium Rotation Period [sec]: 1.31239277e+05 
+(EqRotPer) Equilibrium Rotation Period [sec]: 1.31239277e+05 
+(EqRotRate) Equilibrium Rotation Rate [/sec]: 4.78757993e-05 
 (GammaRot) Gamma_Rotation [cgs]: -1.00000000 
 (GammaOrb) Gamma_Orbital [cgs]: -1.00000000 
 (OceanK2) K2_Ocean []: 0.01000000 
 (EnvTidalQ) Envelope Tidal Q []: -1.00000000 
 (OceanTidalQ) Ocean Tidal Q []: -1.00000000 
 (TideLock) Tidally Locked? []: 1.00000000 
-(RotTimeEqtide) Timescale for Rotational Evolution in EQTIDE [sec]: 8.60659894e+303 
+(RotTimeEqtide) Timescale for Rotational Evolution in EQTIDE [sec]: 8.60659958e+303 
 (EnvK2) K2_Env []: 0.01000000 
 (OblTimeEqtide) Timescale for Obliquity Evolution in EQTIDE []: -1.00000000 
 (PowerEqtide) Internal Power due to Tides in EQTIDE [kg*m^2/sec^3]: 0.00000000 
 (SurfEnFluxEqtide) Surface Energy Flux due to Tides in EQTIDE [kg*m^2/sec^2/(m^2*sec)]: 0.00000000 
 Tidal Perturbers: star
 ----- ATMESC PARAMETERS (b)------
-(SurfWaterMass) Surface water mass [TO]: 0.00038840 
+(SurfWaterMass) Surface water mass [TO]: 0.00038843 
 (EnvelopeMass) Envelope mass [kg]: 0.00000000 
-(OxygenMass) Oxygen mass in the atmosphere [bars]: 829.24729026 
+(OxygenMass) Oxygen mass in the atmosphere [bars]: 829.25131268 
 (RGLimit) Runaway greenhouse semi-major axis [m]: 3.56625316e+09 
-(XO) Atomic oxygen mixing ratio in upper atmosphere []: 0.99985716 
+(XO) Atomic oxygen mixing ratio in upper atmosphere []: 0.99985715 
 (EtaO) Oxygen eta parameter (Luger and Barnes 2015) []: 0.00000000 
 (PlanetRadius) Planet radius [m]: 7.14985010e+06 
 (OxygenMantleMass) Mass of oxygen in mantle [kg]: 0.00000000 
@@ -1032,10 +1072,10 @@ Tidal Perturbers: star
 (AtmGasConst) Atmospheric gas constant []: 4124.00000000 
 (PresSurf) Surface pressure due to atmosphere [Pa]: -1.00000000 
 (DEnvMassDt) Envelope Mass Loss Rate [kg/s]: 0.00000000 
-(FXUV) XUV flux [W/m^2]: 1.29638036 
+(FXUV) XUV flux [W/m^2]: 1.29638049 
 (AtmXAbsEffH2O) XUV atmospheric escape efficiency for H2O []: 0.06679111 
-(RocheRadius) Roche Lobe Radius [m]: 3.89200551e+07 
-(BondiRadius) Bondi Radius [m]: 7.48868517e+08 
+(RocheRadius) Roche Lobe Radius [m]: 3.89200532e+07 
+(BondiRadius) Bondi Radius [m]: 7.48868536e+08 
 (HEscapeRegime) Integer flag for H envelope escape regime []: 8.00000000 
 (RRCriticalFlux) Critical XUV Flux that separates RR and energy-limited escape [W/m^2]: 39.43328598 
 (RGDuration) Runaway Greenhouse Duration [years]: 0.00000e+00
@@ -1054,12 +1094,12 @@ Color: 000000
 (Zobl) Body's cos(obl) []: 1.00000000 
 (Radius) Radius [m]: 6.98401950e+06 
 (RadGyra) Radius of Gyration []: 0.50000000 
-(RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 2.51436381e+33 
-(RotKinEnergy) Body's Rotational Energy [kg*m^2/sec^2]: 3.75477731e+28 
-(RotVel) Rotational Velocity [m/sec]: 208.58905015 
+(RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 2.51436384e+33 
+(RotKinEnergy) Body's Rotational Energy [kg*m^2/sec^2]: 3.75477739e+28 
+(RotVel) Rotational Velocity [m/sec]: 208.58905242 
 (BodyType) Type of Body (0 == planet) []: 0.00000000 
-(RotRate) Rotational Frequency [/sec]: 2.98666191e-05 
-(RotPer) Rotational Period [sec]: 2.10374843e+05 
+(RotRate) Rotational Frequency [/sec]: 2.98666194e-05 
+(RotPer) Rotational Period [sec]: 2.10374841e+05 
 (SurfEnFluxTotal) Total Surface Energy Flux [kg*m^2/sec^2/(m^2*sec)]: 0.00000000 
 (TidalQ) Tidal Q []: 100.00000000 
 (ImK2) Im(k_2) []: -0.00010000 
@@ -1069,26 +1109,31 @@ Color: 000000
 (TidalQMantle) Mantle's Tidal Q []: 100.00000000 
 (HEcc) Poincare's h (=e*sin(varpi) []: 0.00000000 
 (HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 3.09204399e+09 
-(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 2835.53548548 
+(HZLimRecVenus) Recent Venus Habitable Zone Limit [m]: 2.79804762e+09 
+(HZLimRunaway) Runaway Greenhouse Habitable Zone Limit [m]: 3.67598009e+09 
+(HZLimMoistGreenhouse) Moist Greenhouse Habitable Zone Limit [m]: 3.70228709e+09 
+(HZLimMaxGreenhouse) Maximum Greenhouse Habitable Zone Limit [m]: 7.19777055e+09 
+(HZLimEarlyMars) Early Mars Habitable Zone Limit [m]: 7.85017403e+09 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 2835.53552660 
 (KEcc) Poincare's k (=e*cos(varpi) []: 0.00000000 
 (Eccentricity) Orbital Eccentricity []: 0.00000000 
-(OrbEnergy) Body's Total Orbital Energy [kg*m^2/sec^2]: -1.72337852e+34 
-(MeanMotion) Orbital Mean Motion [/sec]: 2.98666191e-05 
-(OrbPeriod) Orbital Period [sec]: 2.10374843e+05 
-(SemiMajorAxis) Semi-major Axis [m]: 2.36582254e+09 
+(OrbEnergy) Body's Total Orbital Energy [kg*m^2/sec^2]: -1.72337854e+34 
+(MeanMotion) Orbital Mean Motion [/sec]: 2.98666194e-05 
+(OrbPeriod) Orbital Period [sec]: 2.10374841e+05 
+(SemiMajorAxis) Semi-major Axis [m]: 2.36582252e+09 
 (CriticalSemiMajorAxis) Holman & Wiegert (1999) P-type Critical Semi-major Axis [m]: -1.00000000 
-(OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 1.15404996e+39 
-(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -6.07445581e+34 
-(OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -3.44675705e+34 
-(LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 7.28067151e+29 
+(OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 1.15404995e+39 
+(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -6.07445593e+34 
+(OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -3.44675707e+34 
+(LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 7.28067138e+29 
 ----- EQTIDE PARAMETERS (c)------
 (TidalRadius) Tidal Radius [m]: 6.98401950e+06 
-(DsemiDtEqtide) Total da/dt in EQTIDE [m/sec]: -1.57388703e-13 
+(DsemiDtEqtide) Total da/dt in EQTIDE [m/sec]: -1.57388709e-13 
 (DeccDtEqtide) Total de/dt in EQTIDE [/sec]: -0.00000000 
-(DMeanMotionDtEqtide) Total dMeanMotion/dt in EQTIDE [/sec^2]: 2.98035992e-27 
-(DOrbPerDtEqtide) Total dOrbPer/dt in EQTIDE []: -2.09930943e-17 
+(DMeanMotionDtEqtide) Total dMeanMotion/dt in EQTIDE [/sec^2]: 2.98036009e-27 
+(DOrbPerDtEqtide) Total dOrbPer/dt in EQTIDE []: -2.09930951e-17 
 (EccTimeEqtide) Timescale for Eccentricity Evolution (e/[de/dt]) in EQTIDE [sec]: 0.00000000 
-(SemiTimeEqtide) Timescale for Semi-major Axis Evolution (a/[da/dt]) in EQTIDE [sec]: 1.50317176e+22 
+(SemiTimeEqtide) Timescale for Semi-major Axis Evolution (a/[da/dt]) in EQTIDE [sec]: 1.50317169e+22 
 (DHEccDtEqtide) Time Rate of Change of Poincare's h in EQTIDE [/sec]: -0.00000000 
 (DKEccDtEqtide) Time Rate of Change of Poincare's k in EQTIDE [/sec]: -0.00000000 
 (DXoblDtEqtide) Time Rate of Change of Laskar's X in EQTIDE [/sec]: 0.00000000 
@@ -1098,32 +1143,32 @@ Color: 000000
 (BodyDsemiDtEqtide) Body's Contribution to dSemi/dt in EQTIDE []: -1.00000000 
 (BodyDeccDt) Body's Contribution to dEcc/dt in EQTIDE []: -1.00000000 
 (DOblDtEqtide) Time Rate of Change of Obliquity in EQTIDE [rad/sec]: 0.00000000 
-(DRotPerDtEqtide) Time Rate of Change of Rotation Period in EQTIDE []: -3.91825036e-299 
+(DRotPerDtEqtide) Time Rate of Change of Rotation Period in EQTIDE []: -3.91825027e-299 
 (DRotRateDtEqtide) Time Rate of Change of Rotational Frequency in EQTIDE [/sec^2]: 5.56268465e-309 
-(EqRotRateDiscrete) CPL2 Discrete Equilibrium Spin Rate [/sec]: 2.98666191e-05 
-(EqRotPerDiscrete) CPL2 Discrete Equilibrium Spin Period [sec]: 2.10374843e+05 
-(EqRotRateCont) CPL2 Continuous Equilibrium Spin Rate [/sec]: 2.98666191e-05 
-(EqRotPerCont) CPL2 Continuous Equilibrium Rotation Period [sec]: 2.10374843e+05 
-(EqRotPer) Equilibrium Rotation Period [sec]: 2.10374843e+05 
-(EqRotRate) Equilibrium Rotation Rate [/sec]: 2.98666191e-05 
+(EqRotRateDiscrete) CPL2 Discrete Equilibrium Spin Rate [/sec]: 2.98666194e-05 
+(EqRotPerDiscrete) CPL2 Discrete Equilibrium Spin Period [sec]: 2.10374841e+05 
+(EqRotRateCont) CPL2 Continuous Equilibrium Spin Rate [/sec]: 2.98666194e-05 
+(EqRotPerCont) CPL2 Continuous Equilibrium Rotation Period [sec]: 2.10374841e+05 
+(EqRotPer) Equilibrium Rotation Period [sec]: 2.10374841e+05 
+(EqRotRate) Equilibrium Rotation Rate [/sec]: 2.98666194e-05 
 (GammaRot) Gamma_Rotation [cgs]: -1.00000000 
 (GammaOrb) Gamma_Orbital [cgs]: -1.00000000 
 (OceanK2) K2_Ocean []: 0.01000000 
 (EnvTidalQ) Envelope Tidal Q []: -1.00000000 
 (OceanTidalQ) Ocean Tidal Q []: -1.00000000 
 (TideLock) Tidally Locked? []: 1.00000000 
-(RotTimeEqtide) Timescale for Rotational Evolution in EQTIDE [sec]: 5.36910161e+303 
+(RotTimeEqtide) Timescale for Rotational Evolution in EQTIDE [sec]: 5.36910167e+303 
 (EnvK2) K2_Env []: 0.01000000 
 (OblTimeEqtide) Timescale for Obliquity Evolution in EQTIDE []: -1.00000000 
 (PowerEqtide) Internal Power due to Tides in EQTIDE [kg*m^2/sec^3]: 0.00000000 
 (SurfEnFluxEqtide) Surface Energy Flux due to Tides in EQTIDE [kg*m^2/sec^2/(m^2*sec)]: 0.00000000 
 Tidal Perturbers: star
 ----- ATMESC PARAMETERS (c)------
-(SurfWaterMass) Surface water mass [TO]: 0.00389739 
+(SurfWaterMass) Surface water mass [TO]: 0.00389749 
 (EnvelopeMass) Envelope mass [kg]: 0.00000000 
-(OxygenMass) Oxygen mass in the atmosphere [bars]: 1464.75106248 
+(OxygenMass) Oxygen mass in the atmosphere [bars]: 1464.75326815 
 (RGLimit) Runaway greenhouse semi-major axis [m]: 3.55544654e+09 
-(XO) Atomic oxygen mixing ratio in upper atmosphere []: 0.99898817 
+(XO) Atomic oxygen mixing ratio in upper atmosphere []: 0.99898815 
 (EtaO) Oxygen eta parameter (Luger and Barnes 2015) []: 0.00000000 
 (PlanetRadius) Planet radius [m]: 6.98401950e+06 
 (OxygenMantleMass) Mass of oxygen in mantle [kg]: 0.00000000 
@@ -1135,10 +1180,10 @@ Tidal Perturbers: star
 (AtmGasConst) Atmospheric gas constant []: 4124.00000000 
 (PresSurf) Surface pressure due to atmosphere [Pa]: -1.00000000 
 (DEnvMassDt) Envelope Mass Loss Rate [kg/s]: 0.00000000 
-(FXUV) XUV flux [W/m^2]: 0.69102087 
+(FXUV) XUV flux [W/m^2]: 0.69102088 
 (AtmXAbsEffH2O) XUV atmospheric escape efficiency for H2O []: 0.07819626 
-(RocheRadius) Roche Lobe Radius [m]: 5.56339267e+07 
-(BondiRadius) Bondi Radius [m]: 7.27331059e+08 
+(RocheRadius) Roche Lobe Radius [m]: 5.56339263e+07 
+(BondiRadius) Bondi Radius [m]: 7.27331062e+08 
 (HEscapeRegime) Integer flag for H envelope escape regime []: 8.00000000 
 (RRCriticalFlux) Critical XUV Flux that separates RR and energy-limited escape [W/m^2]: 54.66523394 
 (RGDuration) Runaway Greenhouse Duration [years]: 0.00000e+00
@@ -1157,13 +1202,13 @@ Color: 000000
 (Zobl) Body's cos(obl) []: 1.00000000 
 (Radius) Radius [m]: 5.00043040e+06 
 (RadGyra) Radius of Gyration []: 0.50000000 
-(RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 1.98048162e+32 
+(RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 1.98048163e+32 
 (RotKinEnergy) Body's Rotational Energy [kg*m^2/sec^2]: 1.76875256e+27 
-(RotVel) Rotational Velocity [m/sec]: 89.31690128 
+(RotVel) Rotational Velocity [m/sec]: 89.31690130 
 (BodyType) Type of Body (0 == planet) []: 0.00000000 
 (RotRate) Rotational Frequency [/sec]: 1.78618427e-05 
 (RotPer) Rotational Period [sec]: 3.51765795e+05 
-(SurfEnFluxTotal) Total Surface Energy Flux [kg*m^2/sec^2/(m^2*sec)]: 2.97221379e-06 
+(SurfEnFluxTotal) Total Surface Energy Flux [kg*m^2/sec^2/(m^2*sec)]: 2.97221376e-06 
 (TidalQ) Tidal Q []: 100.00000000 
 (ImK2) Im(k_2) []: -0.00010000 
 (K2) k_2 []: 0.01000000 
@@ -1172,7 +1217,12 @@ Color: 000000
 (TidalQMantle) Mantle's Tidal Q []: 100.00000000 
 (HEcc) Poincare's h (=e*sin(varpi) []: 0.00000000 
 (HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 3.09204401e+09 
-(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 1428.77467940 
+(HZLimRecVenus) Recent Venus Habitable Zone Limit [m]: 2.79804762e+09 
+(HZLimRunaway) Runaway Greenhouse Habitable Zone Limit [m]: 3.67598009e+09 
+(HZLimMoistGreenhouse) Moist Greenhouse Habitable Zone Limit [m]: 3.70228709e+09 
+(HZLimMaxGreenhouse) Maximum Greenhouse Habitable Zone Limit [m]: 7.19777055e+09 
+(HZLimEarlyMars) Early Mars Habitable Zone Limit [m]: 7.85017403e+09 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 1428.77468000 
 (KEcc) Poincare's k (=e*cos(varpi) []: 0.00010220 
 (Eccentricity) Orbital Eccentricity []: 0.00010220 
 (OrbEnergy) Body's Total Orbital Energy [kg*m^2/sec^2]: -3.14299449e+33 
@@ -1181,19 +1231,19 @@ Color: 000000
 (SemiMajorAxis) Semi-major Axis [m]: 3.33286587e+09 
 (CriticalSemiMajorAxis) Holman & Wiegert (1999) P-type Critical Semi-major Axis [m]: -1.00000000 
 (OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 3.51922758e+38 
-(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -6.07445581e+34 
+(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -6.07445593e+34 
 (OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -6.28598899e+33 
 (LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 2.20148524e+29 
 ----- EQTIDE PARAMETERS (d)------
 (TidalRadius) Tidal Radius [m]: 5.00043040e+06 
 (DsemiDtEqtide) Total da/dt in EQTIDE [m/sec]: -7.13034708e-15 
-(DeccDtEqtide) Total de/dt in EQTIDE [/sec]: -1.45378809e-21 
+(DeccDtEqtide) Total de/dt in EQTIDE [/sec]: -1.45378808e-21 
 (DMeanMotionDtEqtide) Total dMeanMotion/dt in EQTIDE [/sec^2]: 5.73205506e-29 
 (DOrbPerDtEqtide) Total dOrbPer/dt in EQTIDE []: -1.12885380e-18 
-(EccTimeEqtide) Timescale for Eccentricity Evolution (e/[de/dt]) in EQTIDE [sec]: 7.02957440e+16 
-(SemiTimeEqtide) Timescale for Semi-major Axis Evolution (a/[da/dt]) in EQTIDE [sec]: 4.67419865e+23 
+(EccTimeEqtide) Timescale for Eccentricity Evolution (e/[de/dt]) in EQTIDE [sec]: 7.02957439e+16 
+(SemiTimeEqtide) Timescale for Semi-major Axis Evolution (a/[da/dt]) in EQTIDE [sec]: 4.67419866e+23 
 (DHEccDtEqtide) Time Rate of Change of Poincare's h in EQTIDE [/sec]: -0.00000000 
-(DKEccDtEqtide) Time Rate of Change of Poincare's k in EQTIDE [/sec]: -1.45378809e-21 
+(DKEccDtEqtide) Time Rate of Change of Poincare's k in EQTIDE [/sec]: -1.45378808e-21 
 (DXoblDtEqtide) Time Rate of Change of Laskar's X in EQTIDE [/sec]: 0.00000000 
 (DYoblDtEqtide) Time Rate of Change of Laskar's Y in EQTIDE [/sec]: 0.00000000 
 (DZoblDtEqtide) Time Rate of Change of Laskar's Z in EQTIDE [/sec]: 0.00000000 
@@ -1218,15 +1268,15 @@ Color: 000000
 (RotTimeEqtide) Timescale for Rotational Evolution in EQTIDE [sec]: 3.21101120e+303 
 (EnvK2) K2_Env []: 0.01000000 
 (OblTimeEqtide) Timescale for Obliquity Evolution in EQTIDE []: -1.00000000 
-(PowerEqtide) Internal Power due to Tides in EQTIDE [kg*m^2/sec^3]: 9.33909262e+08 
-(SurfEnFluxEqtide) Surface Energy Flux due to Tides in EQTIDE [kg*m^2/sec^2/(m^2*sec)]: 2.97221379e-06 
+(PowerEqtide) Internal Power due to Tides in EQTIDE [kg*m^2/sec^3]: 9.33909253e+08 
+(SurfEnFluxEqtide) Surface Energy Flux due to Tides in EQTIDE [kg*m^2/sec^2/(m^2*sec)]: 2.97221376e-06 
 Tidal Perturbers: star
 ----- ATMESC PARAMETERS (d)------
-(SurfWaterMass) Surface water mass [TO]: 1.34907556 
+(SurfWaterMass) Surface water mass [TO]: 1.34907518 
 (EnvelopeMass) Envelope mass [kg]: 0.00000000 
-(OxygenMass) Oxygen mass in the atmosphere [bars]: 768.99033082 
+(OxygenMass) Oxygen mass in the atmosphere [bars]: 768.98376476 
 (RGLimit) Runaway greenhouse semi-major axis [m]: 3.67536921e+09 
-(XO) Atomic oxygen mixing ratio in upper atmosphere []: 0.67006144 
+(XO) Atomic oxygen mixing ratio in upper atmosphere []: 0.67006006 
 (EtaO) Oxygen eta parameter (Luger and Barnes 2015) []: 0.00000000 
 (PlanetRadius) Planet radius [m]: 5.00043040e+06 
 (OxygenMantleMass) Mass of oxygen in mantle [kg]: 0.00000000 
@@ -1261,8 +1311,8 @@ Color: 000000
 (Radius) Radius [m]: 5.80407100e+06 
 (RadGyra) Radius of Gyration []: 0.50000000 
 (RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 5.32796303e+32 
-(RotKinEnergy) Body's Rotational Energy [kg*m^2/sec^2]: 3.65541207e+27 
-(RotVel) Rotational Velocity [m/sec]: 79.64121039 
+(RotKinEnergy) Body's Rotational Energy [kg*m^2/sec^2]: 3.65541208e+27 
+(RotVel) Rotational Velocity [m/sec]: 79.64121041 
 (BodyType) Type of Body (0 == planet) []: 0.00000000 
 (RotRate) Rotational Frequency [/sec]: 1.37216120e-05 
 (RotPer) Rotational Period [sec]: 4.57904312e+05 
@@ -1275,26 +1325,31 @@ Color: 000000
 (TidalQMantle) Mantle's Tidal Q []: 100.00000000 
 (HEcc) Poincare's h (=e*sin(varpi) []: 0.00000000 
 (HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 3.09204811e+09 
-(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 1005.22862491 
+(HZLimRecVenus) Recent Venus Habitable Zone Limit [m]: 2.79804762e+09 
+(HZLimRunaway) Runaway Greenhouse Habitable Zone Limit [m]: 3.67598009e+09 
+(HZLimMoistGreenhouse) Moist Greenhouse Habitable Zone Limit [m]: 3.70228709e+09 
+(HZLimMaxGreenhouse) Maximum Greenhouse Habitable Zone Limit [m]: 7.19777055e+09 
+(HZLimEarlyMars) Early Mars Habitable Zone Limit [m]: 7.85017403e+09 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 1005.22862524 
 (KEcc) Poincare's k (=e*cos(varpi) []: 0.00163283 
 (Eccentricity) Orbital Eccentricity []: 0.00163283 
-(OrbEnergy) Body's Total Orbital Energy [kg*m^2/sec^2]: -6.85258977e+33 
+(OrbEnergy) Body's Total Orbital Energy [kg*m^2/sec^2]: -6.85258978e+33 
 (MeanMotion) Orbital Mean Motion [/sec]: 1.37216120e-05 
 (OrbPeriod) Orbital Period [sec]: 4.57904312e+05 
 (SemiMajorAxis) Semi-major Axis [m]: 3.97344837e+09 
 (CriticalSemiMajorAxis) Holman & Wiegert (1999) P-type Critical Semi-major Axis [m]: -1.00000000 
 (OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 9.98801107e+38 
-(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -6.07445581e+34 
-(OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -1.37051795e+34 
-(LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 1.59964501e+29 
+(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -6.07445593e+34 
+(OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -1.37051796e+34 
+(LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 1.59964500e+29 
 ----- EQTIDE PARAMETERS (e)------
 (TidalRadius) Tidal Radius [m]: 5.80407100e+06 
-(DsemiDtEqtide) Total da/dt in EQTIDE [m/sec]: -8.39890264e-14 
+(DsemiDtEqtide) Total da/dt in EQTIDE [m/sec]: -8.39890263e-14 
 (DeccDtEqtide) Total de/dt in EQTIDE [/sec]: -6.00494910e-21 
-(DMeanMotionDtEqtide) Total dMeanMotion/dt in EQTIDE [/sec^2]: 4.35062216e-28 
+(DMeanMotionDtEqtide) Total dMeanMotion/dt in EQTIDE [/sec^2]: 4.35062215e-28 
 (DOrbPerDtEqtide) Total dOrbPer/dt in EQTIDE []: -1.45184738e-17 
-(EccTimeEqtide) Timescale for Eccentricity Evolution (e/[de/dt]) in EQTIDE [sec]: 2.71914683e+17 
-(SemiTimeEqtide) Timescale for Semi-major Axis Evolution (a/[da/dt]) in EQTIDE [sec]: 4.73091371e+22 
+(EccTimeEqtide) Timescale for Eccentricity Evolution (e/[de/dt]) in EQTIDE [sec]: 2.71914682e+17 
+(SemiTimeEqtide) Timescale for Semi-major Axis Evolution (a/[da/dt]) in EQTIDE [sec]: 4.73091372e+22 
 (DHEccDtEqtide) Time Rate of Change of Poincare's h in EQTIDE [/sec]: -0.00000000 
 (DKEccDtEqtide) Time Rate of Change of Poincare's k in EQTIDE [/sec]: -6.00494910e-21 
 (DXoblDtEqtide) Time Rate of Change of Laskar's X in EQTIDE [/sec]: 0.00000000 
@@ -1325,11 +1380,11 @@ Color: 000000
 (SurfEnFluxEqtide) Surface Energy Flux due to Tides in EQTIDE [kg*m^2/sec^2/(m^2*sec)]: 0.00031744 
 Tidal Perturbers: star
 ----- ATMESC PARAMETERS (e)------
-(SurfWaterMass) Surface water mass [TO]: 2.44769062 
+(SurfWaterMass) Surface water mass [TO]: 0.25741260 
 (EnvelopeMass) Envelope mass [kg]: 0.00000000 
-(OxygenMass) Oxygen mass in the atmosphere [bars]: 1766.25595725 
+(OxygenMass) Oxygen mass in the atmosphere [bars]: 2350.20853830 
 (RGLimit) Runaway greenhouse semi-major axis [m]: 3.58983949e+09 
-(XO) Atomic oxygen mixing ratio in upper atmosphere []: 0.64952725 
+(XO) Atomic oxygen mixing ratio in upper atmosphere []: 0.94630184 
 (EtaO) Oxygen eta parameter (Luger and Barnes 2015) []: 0.00000000 
 (PlanetRadius) Planet radius [m]: 5.80407100e+06 
 (OxygenMantleMass) Mass of oxygen in mantle [kg]: 0.00000000 
@@ -1343,11 +1398,11 @@ Tidal Perturbers: star
 (DEnvMassDt) Envelope Mass Loss Rate [kg/s]: 0.00000000 
 (FXUV) XUV flux [W/m^2]: 0.24497452 
 (AtmXAbsEffH2O) XUV atmospheric escape efficiency for H2O []: 0.09639067 
-(RocheRadius) Roche Lobe Radius [m]: 8.16729569e+07 
+(RocheRadius) Roche Lobe Radius [m]: 8.16729568e+07 
 (BondiRadius) Bondi Radius [m]: 3.74799407e+08 
 (HEscapeRegime) Integer flag for H envelope escape regime []: 8.00000000 
 (RRCriticalFlux) Critical XUV Flux that separates RR and energy-limited escape [W/m^2]: 42.47646085 
-(RGDuration) Runaway Greenhouse Duration [years]: 5.11664e+08
+(RGDuration) Runaway Greenhouse Duration [years]: 5.11640e+08
 Output Order: Time[year] SurfWaterMass[TO] OxygenMass[bars] Eccentricity[]
 Grid Output Order:
 
@@ -1378,7 +1433,12 @@ Color: 000000
 (TidalQMantle) Mantle's Tidal Q []: 100.00000000 
 (HEcc) Poincare's h (=e*sin(varpi) []: 0.00000000 
 (HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 3.09217043e+09 
-(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 477.65608620 
+(HZLimRecVenus) Recent Venus Habitable Zone Limit [m]: 2.79804762e+09 
+(HZLimRunaway) Runaway Greenhouse Habitable Zone Limit [m]: 3.67598009e+09 
+(HZLimMoistGreenhouse) Moist Greenhouse Habitable Zone Limit [m]: 3.70228709e+09 
+(HZLimMaxGreenhouse) Maximum Greenhouse Habitable Zone Limit [m]: 7.19777055e+09 
+(HZLimEarlyMars) Early Mars Habitable Zone Limit [m]: 7.85017403e+09 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 477.65608622 
 (KEcc) Poincare's k (=e*cos(varpi) []: 0.00904320 
 (Eccentricity) Orbital Eccentricity []: 0.00904320 
 (OrbEnergy) Body's Total Orbital Energy [kg*m^2/sec^2]: -5.71479892e+33 
@@ -1387,7 +1447,7 @@ Color: 000000
 (SemiMajorAxis) Semi-major Axis [m]: 5.76435779e+09 
 (CriticalSemiMajorAxis) Holman & Wiegert (1999) P-type Critical Semi-major Axis [m]: -1.00000000 
 (OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 1.45539843e+39 
-(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -6.07445581e+34 
+(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -6.07445593e+34 
 (OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -1.14295978e+34 
 (LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 1.86930875e+29 
 ----- EQTIDE PARAMETERS (f)------
@@ -1428,11 +1488,11 @@ Color: 000000
 (SurfEnFluxEqtide) Surface Energy Flux due to Tides in EQTIDE [kg*m^2/sec^2/(m^2*sec)]: 0.00090786 
 Tidal Perturbers: star
 ----- ATMESC PARAMETERS (f)------
-(SurfWaterMass) Surface water mass [TO]: 6.49670837 
+(SurfWaterMass) Surface water mass [TO]: 0.12499850 
 (EnvelopeMass) Envelope mass [kg]: 0.00000000 
-(OxygenMass) Oxygen mass in the atmosphere [bars]: 582.07983937 
+(OxygenMass) Oxygen mass in the atmosphere [bars]: 1757.58283536 
 (RGLimit) Runaway greenhouse semi-major axis [m]: 3.57341650e+09 
-(XO) Atomic oxygen mixing ratio in upper atmosphere []: 0.42609397 
+(XO) Atomic oxygen mixing ratio in upper atmosphere []: 0.97471450 
 (EtaO) Oxygen eta parameter (Luger and Barnes 2015) []: 0.00000000 
 (PlanetRadius) Planet radius [m]: 6.67149260e+06 
 (OxygenMantleMass) Mass of oxygen in mantle [kg]: 0.00000000 
@@ -1450,7 +1510,7 @@ Tidal Perturbers: star
 (BondiRadius) Bondi Radius [m]: 3.76475565e+08 
 (HEscapeRegime) Integer flag for H envelope escape regime []: 8.00000000 
 (RRCriticalFlux) Critical XUV Flux that separates RR and energy-limited escape [W/m^2]: 40.93894053 
-(RGDuration) Runaway Greenhouse Duration [years]: 1.71000e+08
+(RGDuration) Runaway Greenhouse Duration [years]: 1.70996e+08
 Output Order: Time[year] SurfWaterMass[TO] OxygenMass[bars] Eccentricity[]
 Grid Output Order:
 
@@ -1468,7 +1528,7 @@ Color: 000000
 (RadGyra) Radius of Gyration []: 0.50000000 
 (RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 5.37794759e+32 
 (RotKinEnergy) Body's Rotational Energy [kg*m^2/sec^2]: 1.57369835e+27 
-(RotVel) Rotational Velocity [m/sec]: 42.85170750 
+(RotVel) Rotational Velocity [m/sec]: 42.85170751 
 (BodyType) Type of Body (0 == planet) []: 0.00000000 
 (RotRate) Rotational Frequency [/sec]: 5.85241237e-06 
 (RotPer) Rotational Period [sec]: 1.07360605e+06 
@@ -1481,6 +1541,11 @@ Color: 000000
 (TidalQMantle) Mantle's Tidal Q []: 100.00000000 
 (HEcc) Poincare's h (=e*sin(varpi) []: 0.00000000 
 (HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 3.09208799e+09 
+(HZLimRecVenus) Recent Venus Habitable Zone Limit [m]: 2.79804762e+09 
+(HZLimRunaway) Runaway Greenhouse Habitable Zone Limit [m]: 3.67598009e+09 
+(HZLimMoistGreenhouse) Moist Greenhouse Habitable Zone Limit [m]: 3.70228709e+09 
+(HZLimMaxGreenhouse) Maximum Greenhouse Habitable Zone Limit [m]: 7.19777055e+09 
+(HZLimEarlyMars) Early Mars Habitable Zone Limit [m]: 7.85017403e+09 
 (Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 322.73035822 
 (KEcc) Poincare's k (=e*cos(varpi) []: 0.00533468 
 (Eccentricity) Orbital Eccentricity []: 0.00533468 
@@ -1490,7 +1555,7 @@ Color: 000000
 (SemiMajorAxis) Semi-major Axis [m]: 7.01266169e+09 
 (CriticalSemiMajorAxis) Holman & Wiegert (1999) P-type Critical Semi-major Axis [m]: -1.00000000 
 (OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 1.97311730e+39 
-(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -6.07445581e+34 
+(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -6.07445593e+34 
 (OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -1.15476604e+34 
 (LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 2.13057409e+28 
 ----- EQTIDE PARAMETERS (g)------
@@ -1531,11 +1596,11 @@ Color: 000000
 (SurfEnFluxEqtide) Surface Energy Flux due to Tides in EQTIDE [kg*m^2/sec^2/(m^2*sec)]: 9.60136171e-05 
 Tidal Perturbers: star
 ----- ATMESC PARAMETERS (g)------
-(SurfWaterMass) Surface water mass [TO]: 7.51735042 
+(SurfWaterMass) Surface water mass [TO]: 0.07656807 
 (EnvelopeMass) Envelope mass [kg]: 0.00000000 
-(OxygenMass) Oxygen mass in the atmosphere [bars]: 362.71128190 
+(OxygenMass) Oxygen mass in the atmosphere [bars]: 1527.42502281 
 (RGLimit) Runaway greenhouse semi-major axis [m]: 3.55600453e+09 
-(XO) Atomic oxygen mixing ratio in upper atmosphere []: 0.39544999 
+(XO) Atomic oxygen mixing ratio in upper atmosphere []: 0.98466753 
 (EtaO) Oxygen eta parameter (Luger and Barnes 2015) []: 0.00000000 
 (PlanetRadius) Planet radius [m]: 7.32205880e+06 
 (OxygenMantleMass) Mass of oxygen in mantle [kg]: 0.00000000 
@@ -1553,7 +1618,7 @@ Tidal Perturbers: star
 (BondiRadius) Bondi Radius [m]: 4.19532709e+08 
 (HEscapeRegime) Integer flag for H envelope escape regime []: 8.00000000 
 (RRCriticalFlux) Critical XUV Flux that separates RR and energy-limited escape [W/m^2]: 46.78385579 
-(RGDuration) Runaway Greenhouse Duration [years]: 1.01793e+08
+(RGDuration) Runaway Greenhouse Duration [years]: 1.01790e+08
 Output Order: Time[year] SurfWaterMass[TO] OxygenMass[bars] Eccentricity[]
 Grid Output Order:
 
@@ -1584,6 +1649,11 @@ Color: 000000
 (TidalQMantle) Mantle's Tidal Q []: 100.00000000 
 (HEcc) Poincare's h (=e*sin(varpi) []: 0.00000000 
 (HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 3.09209322e+09 
+(HZLimRecVenus) Recent Venus Habitable Zone Limit [m]: 2.79804762e+09 
+(HZLimRunaway) Runaway Greenhouse Habitable Zone Limit [m]: 3.67598009e+09 
+(HZLimMoistGreenhouse) Moist Greenhouse Habitable Zone Limit [m]: 3.70228709e+09 
+(HZLimMaxGreenhouse) Maximum Greenhouse Habitable Zone Limit [m]: 7.19777055e+09 
+(HZLimEarlyMars) Early Mars Habitable Zone Limit [m]: 7.85017403e+09 
 (Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 184.87797286 
 (KEcc) Poincare's k (=e*cos(varpi) []: 0.00564293 
 (Eccentricity) Orbital Eccentricity []: 0.00564293 
@@ -1593,7 +1663,7 @@ Color: 000000
 (SemiMajorAxis) Semi-major Axis [m]: 9.26532334e+09 
 (CriticalSemiMajorAxis) Holman & Wiegert (1999) P-type Critical Semi-major Axis [m]: -1.00000000 
 (OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 6.53932779e+38 
-(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -6.07445581e+34 
+(TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -6.07445593e+34 
 (OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -2.52001089e+33 
 (LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 3.85904577e+26 
 ----- EQTIDE PARAMETERS (h)------
@@ -1634,11 +1704,11 @@ Color: 000000
 (SurfEnFluxEqtide) Surface Energy Flux due to Tides in EQTIDE [kg*m^2/sec^2/(m^2*sec)]: 4.05974392e-06 
 Tidal Perturbers: star
 ----- ATMESC PARAMETERS (h)------
-(SurfWaterMass) Surface water mass [TO]: 9.49713315 
+(SurfWaterMass) Surface water mass [TO]: 3.93561786 
 (EnvelopeMass) Envelope mass [kg]: 0.00000000 
-(OxygenMass) Oxygen mass in the atmosphere [bars]: 75.46029710 
+(OxygenMass) Oxygen mass in the atmosphere [bars]: 1267.80758953 
 (RGLimit) Runaway greenhouse semi-major axis [m]: 3.66532732e+09 
-(XO) Atomic oxygen mixing ratio in upper atmosphere []: 0.34127974 
+(XO) Atomic oxygen mixing ratio in upper atmosphere []: 0.55229776 
 (EtaO) Oxygen eta parameter (Luger and Barnes 2015) []: 0.00000000 
 (PlanetRadius) Planet radius [m]: 4.93027130e+06 
 (OxygenMantleMass) Mass of oxygen in mantle [kg]: 0.00000000 
@@ -1656,6 +1726,6 @@ Tidal Perturbers: star
 (BondiRadius) Bondi Radius [m]: 1.05235698e+08 
 (HEscapeRegime) Integer flag for H envelope escape regime []: 8.00000000 
 (RRCriticalFlux) Critical XUV Flux that separates RR and energy-limited escape [W/m^2]: 12.73958868 
-(RGDuration) Runaway Greenhouse Duration [years]: 5.28967e+07
+(RGDuration) Runaway Greenhouse Duration [years]: 5.28944e+07
 Output Order: Time[year] SurfWaterMass[TO] OxygenMass[bars] Eccentricity[]
 Grid Output Order:

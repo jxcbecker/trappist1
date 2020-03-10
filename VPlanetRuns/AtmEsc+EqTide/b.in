@@ -17,6 +17,7 @@ bInstantO2Sink            0
 bOceanTides		  0
 bForceEqSpin		  1
 dMaxLockDiff		  0.1
+bStopWaterLossInHZ	  0
 
 # Orbital Properties
 dSemi                     -0.01154775     # Semi-major axis, negative -> AU

@@ -11,6 +11,9 @@ dRadius                   -0.910
 sWaterLossModel           lbexact
 sAtmXAbsEffH2OModel       bolmont16
 bInstantO2Sink            0
+bStopWaterLossInHZ        0
+
+
 # EQTIDE Parameters - start with Earth values
 dTidalQ     120     # Tidal Q
 dK2         0.299   # Love number of degree 2 (Yoder 1995)

@@ -19,6 +19,7 @@ sAtmXAbsEffH2OModel       bolmont16
 bInstantO2Sink            0
 bForceEqSpin		  1
 dMaxLockDiff		  0.1
+bStopWaterLossInHZ        0
 
 # EQTIDE Parameters - start with Earth values
 dTidalQ     120     # Tidal Q

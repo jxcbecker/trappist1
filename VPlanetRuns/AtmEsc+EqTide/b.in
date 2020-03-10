@@ -15,6 +15,8 @@ sWaterLossModel           lbexact
 sAtmXAbsEffH2OModel       bolmont16
 bInstantO2Sink            0
 bOceanTides		  0
+bForceEqSpin		  1
+dMaxLockDiff		  0.1
 
 # Orbital Properties
 dSemi                     -0.01154775     # Semi-major axis, negative -> AU
@@ -25,4 +27,8 @@ dTidalQ     120     # Tidal Q
 dK2         0.299   # Love number of degree 2 (Yoder 1995)
 saTidePerts	star
 
-saOutputOrder Time -SurfWaterMass -OxygenMass
+saOutputOrder Time -SurfWaterMass -OxygenMass Eccentricity
+
+
+
+

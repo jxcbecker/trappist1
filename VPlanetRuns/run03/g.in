@@ -1,14 +1,14 @@
-# Planet d parameters
-sName                     d              # Body's name
-saModules                 eqtide atmesc       # Modules to apply, exact spelling required
+# Planet g parameters
+sName                     g              # Body's name
+saModules                 eqtide atmesc         # Modules to apply, exact spelling required
 
 # Physical Properties (from Grimm et al. [2018])
-dMass                     -0.297           # Mass, negative -> Earth masses
-dRadius                   -0.784           # Radius, negative -> Earth radii               1
+dMass                     -1.148           # Mass, negative -> Earth masses
+dRadius                   -1.148           # Radius, negative -> Earth radii
 
 # Orbital Properties
-dSemi                     -0.02228038     # Semi-major axis, negative -> AU
-dEcc                       0.00837         # Eccentricity
+dSemi                     -0.04687692     # Semi-major axis, negative -> AU
+dEcc                       0.00567         # Eccentricity
 
 # AtmEsc Properties
 dXFrac                    1.0
@@ -22,7 +22,7 @@ dMaxLockDiff		  0.1
 bStopWaterLossInHZ        0
 
 # EQTIDE Parameters - start with Earth values
-dTidalQ     12     # Tidal Q
+dTidalQ     120     # Tidal Q
 dK2         0.299   # Love number of degree 2 (Yoder 1995)
 saTidePerts	star
 

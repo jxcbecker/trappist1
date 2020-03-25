@@ -15,7 +15,7 @@ bStopWaterLossInHZ        0
 
 
 # EQTIDE Parameters - start with Earth values
-dTidalQ     12     # Tidal Q
+dTidalQ     120     # Tidal Q
 dK2         0.299   # Love number of degree 2 (Yoder 1995)
 saTidePerts	star
 bForceEqSpin		  1

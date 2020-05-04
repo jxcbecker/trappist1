@@ -21,10 +21,9 @@ Details on this analysis
 
 To run the code in this directory, make sure VPlanet is installed on your machine and run:
 
-  
-```bash
-vplanet vpl.in
-```
+.. code-block:: bash
+
+  vplanet vpl.in
  
 
 Which creates the output files (trappist1.b.forward, etc) needed in the MakeFigures.ipynb script. There are several other folders in this repository (run01, run02, run03) which contain runs of this system with different planet parameters. 

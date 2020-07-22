@@ -4,7 +4,7 @@ Atmospheric Escape  with an Evolving XUV Luminosity in the TRAPPIST-1 Planetary 
 Overview
 --------
 
-We use `vplanet <https://github.com/VirtualPlanetaryLaboratory/vplanet>`_ to model water photolysis and hydrogen escape for the TRAPPIST-1 planetary system, matching the current-day XUV luminosity output from the code to our measured values from Becker et al. 2020. The result is a measure of the ocean content on each planet overtime. 
+We use `vplanet <https://github.com/VirtualPlanetaryLaboratory/vplanet>`_ to model water photolysis and hydrogen escape for the TRAPPIST-1 planetary system, matching the current-day XUV luminosity output from the code to our measured values from Becker et al. 2020. The result is a measure of the ocean content on each planet over time. 
 
 
 ===================   ============
